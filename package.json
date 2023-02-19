@@ -2,7 +2,7 @@
   "name": "ajs-pure",
   "version": "1.0.0",
   "description": "homework unit test pure function",
-  "main": "src/index.js",
+  "main": "src/pureFunction",
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
