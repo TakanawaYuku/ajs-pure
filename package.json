@@ -1,0 +1,29 @@
+{
+  "name": "ajs-pure",
+  "version": "1.0.0",
+  "description": "homework unit test pure function",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TakanawaYuku/ajs-pure.git"
+  },
+  "author": "TakanawaYuku",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TakanawaYuku/ajs-pure/issues"
+  },
+  "homepage": "https://github.com/TakanawaYuku/ajs-pure#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.4.3",
+    "core-js": "^3.28.0",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.4.3"
+  }
+}
