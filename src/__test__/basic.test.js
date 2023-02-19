@@ -1,4 +1,4 @@
-import getHealthPerson from '../index';
+import getHealthPerson from '../pureFunction';
 
 test.each([
   [90, 'healthy'],

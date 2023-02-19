@@ -1,11 +1,11 @@
 export default function getHealthPerson(data) {
   let health = '';
   if (data.health >= 50 && data.health <= 100) {
-    health = 'healthy'
+    health = 'healthy';
   } else if (data.health < 50 && data.health >= 15) {
-    health = 'wounded'
+    health = 'wounded';
   } else {
-    health = 'critical'
+    health = 'critical';
   }
 
   return health;
