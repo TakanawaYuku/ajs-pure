@@ -17,4 +17,4 @@ const person = {
 };
 
 getHealthPerson(person);
-console.log(getHealthPerson(person)); // Для проверки что код работает
+// console.log(getHealthPerson(person)); // Для проверки что код работает
