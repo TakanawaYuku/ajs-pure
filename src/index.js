@@ -11,10 +11,10 @@ export default function getHealthPerson(data) {
   return health;
 }
 
-const person = {
-  name: 'Маг',
-  health: 55,
-};
+// const person = {
+//   name: 'Маг',
+//   health: 55,
+// };
 
-getHealthPerson(person);
+// getHealthPerson(person);
 // console.log(getHealthPerson(person)); // Для проверки что код работает
