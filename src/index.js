@@ -2,12 +2,10 @@ export default function getHealthPerson(player) {
   let health = '';
   if (player.health >= 50 && player.health <= 100) {
     health = 'healthy';
-  } if (player.health < 50 && player.health >= 15) {
+  } else if (player.health < 50 && player.health >= 15) {
     health = 'wounded';
-  } if (player.health < 15) {
-    health = 'critical';
   } else {
-    health = 'incorrect result';
+    health = 'critical';
   }
 
   return health;
@@ -15,8 +13,8 @@ export default function getHealthPerson(player) {
 
 const person = {
   name: 'Маг',
-  health: 14,
+  health: 55,
 };
 
 getHealthPerson(person);
-// console.log(getHealthPerson(person)); Для проверки что код работает
+console.log(getHealthPerson(person)); // Для проверки что код работает
